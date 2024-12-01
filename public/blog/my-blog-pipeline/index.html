@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <title>
+My Blog Pipeline | My Devlogs
+</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="">
+
+<meta name="generator" content="Hugo 0.139.3">
+
+
+<link rel="canonical" href="//localhost:1313/blog/my-blog-pipeline/" >
+
+
+
+
+<link href="/css/style.min.36c061153203db94fc1169914d07c49c3a537a11316e9ffbd4c7a511df482d8d.css" rel="stylesheet">
+
+
+
+
+</head>
+
+<body>
+
+    <div class="flexWrapper">
+        <header class="headerWrapper">
+    <div class="header">
+        <div>
+            <a class="terminal" href="//localhost:1313/">
+                <span>athul@devlogs ~ $</span>
+            </a>
+        </div>
+        <input class="side-menu" type="checkbox" id="side-menu">
+        <label class="hamb" for="side-menu"><span class="hamb-line"></span></label>
+        <nav class="headerLinks">
+            <ul>
+                
+                <li>
+                    <a href="//localhost:1313/about" title="" >
+                        ~/about</a>
+                </li>
+                
+                <li>
+                    <a href="//localhost:1313/blog" title="" >
+                        ~/blog</a>
+                </li>
+                
+            </ul>
+        </nav>
+    </div>
+</header>
+
+
+        <div class="content">
+            <main class="main">
+                
+<div class="postWrapper">
+    <h1>My Blog Pipeline</h1>
+    
+    
+    <section class="postMetadata">
+        <dl>
+            
+                
+<dt>tags</dt>
+<dd><span></span>
+    <a href="/tags/tools/">#Tools</a><span></span>
+    <a href="/tags/blogging/">#Blogging</a><span></span>
+    <a href="/tags/workflow/">#Workflow</a></dd>
+            
+            
+            
+            
+                <dt>published</dt>
+                
+                <dd><time datetime="2024-12-01">December 1, 2024</time></dd>
+            
+            
+                <dt>reading time</dt>
+                <dd>3 minutes</dd>
+            
+        </dl>
+    </section>
+    
+    <div>
+        <p>Here&rsquo;s how I manage and run this blog:</p>
+<ol>
+<li>
+<p><strong><a href="https://obsidian.md">Obsidian</a></strong><br>
+Obsidian is my go-to note-taking and writing tool. I use it to draft, organize, and refine all my posts before publishing. Its markdown-based workflow is perfect for my use case such as this website.</p>
+</li>
+<li>
+<p><strong><a href="https://gohugo.io">Hugo</a></strong><br>
+Hugo is the static site generator powering this blog. It allows me to convert markdown files into a fast and beautifully designed website with ease.</p>
+</li>
+<li>
+<p><strong><a href="https://github.com">GitHub</a></strong><br>
+GitHub serves as my version control and deployment tool. I push my Hugo-generated website to a GitHub repository, which keeps my code and content organized and backed up.</p>
+</li>
+<li>
+<p><strong>Private Server on Oracle Cloud</strong><br>
+I host my website on a free private server provisioned through <a href="https://www.oracle.com/cloud/">Oracle Cloud</a>. I like hosting my own websites.</p>
+</li>
+</ol>
+<p>With this setup, I can write in Obsidian, use Hugo to generate the site, manage my source code with GitHub, and host it securely on my Oracle Cloud server. This pipeline ensures a smooth and efficient workflow for maintaining this blog.</p>
+<h1 id="setting-up-hugo">Setting up Hugo</h1>
+<h2 id="1-installation">1. Installation</h2>
+<h3 id="on-windows">On Windows:</h3>
+<ol>
+<li>Download the Hugo executable from the <a href="https://gohugo.io/getting-started/installing/">official website</a>.</li>
+<li>Add the Hugo binary to your system&rsquo;s PATH variable, so you can run it from the command line.</li>
+<li>Verify the installation by running <code>hugo version</code> in your terminal.</li>
+</ol>
+<h3 id="on-mac">On Mac:</h3>
+<ol>
+<li>Use Homebrew to install Hugo by running the following command:
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>brew install hugo
+</span></span></code></pre></div></li>
+</ol>
+<h3 id="on-linux">On Linux:</h3>
+<ol>
+<li>Install using your package manager:
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>sudo apt-get install hugo
+</span></span></code></pre></div></li>
+<li>Verify installation by running <code>hugo version</code></li>
+</ol>
+<h2 id="2-creating-a-hugo-website">2. Creating a Hugo Website</h2>
+<p>After Hugo is installed, create a new website using the command:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>hugo new site website_name
+</span></span></code></pre></div><p>This creates a new Hugo site in the <code>website_name</code> folder.</p>
+<h2 id="3-downloading-hugo-themes">3. Downloading Hugo Themes</h2>
+<p>Browse <a href="https://themes.gohugo.io/">official Hugo themes site</a> for customizing the look of the website. I used <a href="https://themes.gohugo.io/themes/hugo-theme-nightfall/">Nightfall</a> To install a theme:</p>
+<ol>
+<li>Navigate to the website folder:
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>cd website_name
+</span></span></code></pre></div></li>
+<li>Download your desired theme into the <code>themes</code> directory. In my case, I used:
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git init
+</span></span><span style="display:flex;"><span>git submodule add https://github.com/LordMathis/hugo-theme-nightfall themes/nightfall 
+</span></span></code></pre></div></li>
+</ol>
+<h2 id="4-setting-up-hugotoml">4. Setting up <code>hugo.toml</code></h2>
+<p><code>hugo.toml</code> is the configuration file for your hugo website. It is where you need to set the global parameters such as title, language, theme etc. You can find more about this in the theme&rsquo;s documentation.</p>
+<h2 id="5-creating-the-blog-folder-inside-content">5. Creating the blog folder inside <code>content</code></h2>
+<p>Hugo uses a folder structure to organize the website content. You need to create a folder to hold the markdown file that you need to convert into a website page.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>cd content
+</span></span><span style="display:flex;"><span>mkdir blog
+</span></span></code></pre></div><h2 id="6-copy-markdown-files-from-obsidian-folder-to-contentblog">6. Copy markdown files from Obsidian folder to <code>content/blog</code></h2>
+<p>You will need to copy the markdown files from the Obsidian folder to the <code>content/blog</code> folder so Hugo can convert it into webpages.</p>
+<p>Run the commands replacing the directories with the source directory and destination directory respectively:</p>
+<h3 id="on-windows-">On Windows :</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>robocopy <span style="color:#ae81ff">\p</span>ath<span style="color:#ae81ff">\t</span>o<span style="color:#ae81ff">\o</span>bsidian<span style="color:#ae81ff">\f</span>older <span style="color:#ae81ff">\p</span>ath<span style="color:#ae81ff">\t</span>o<span style="color:#ae81ff">\c</span>ontent<span style="color:#ae81ff">\b</span>log /E
+</span></span></code></pre></div><h3 id="on-linux--">On Linux  :</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>rsync -av --progress /path/to/obsidian/ /path/to/website_name/content/blog/
+</span></span></code></pre></div><p><strong>Note:</strong>
+You can find the directory of the obsidian folder by right clicking on the folder inside Obsidian and clicking &ldquo;Show in folder&rdquo;.</p>
+<h2 id="7-building-the-website">7. Building the website</h2>
+<p>Once you have your markdown content ready and copied over to the <code>content/blog</code> folder:</p>
+<ol>
+<li>
+<p>Build website using:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>hugo
+</span></span></code></pre></div></li>
+<li>
+<p>Start the development server in your browser using:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>hugo server
+</span></span></code></pre></div><p>Your website will be available at <code>http://localhost:1313/</code>.</p>
+</li>
+</ol>
+<h2 id="8-publishing-the-website">8. Publishing the website</h2>
+<p>You can use Github pages or deploy to your own server or even a hosting provider.</p>
+<p>Using Github Pages:</p>
+<ol>
+<li>Push Hugo generated static files (found in public/) directory to your Github repo.</li>
+<li>Set up Github pages to serve content from the public directory.</li>
+</ol>
+<p>For a private server:</p>
+<ol>
+<li>Transfer the <code>public</code> folder contents to your server.</li>
+<li>Serve the files using a web server like Nginx or Apache.</li>
+</ol>
+<p><strong>Note:</strong> For a more efficient workflow, automate <code>rsync/robocopy</code>, <code>hugo</code>, <code>hugo server</code> using a powershell/bash script.</p>
+
+    </div>
+</div>
+
+            </main>
+        </div>
+
+
+        <footer class="footer">
+    
+        <span>
+            © 2024 My Devlogs, Built with
+            <a href="https://gohugo.io" class="footerLink">Hugo</a> and
+            <a href="https://github.com/LordMathis/hugo-theme-nightfall" class="footerLink">Nightfall</a> theme
+        </span>
+    
+</footer>
+    </div>
+
+</body>
+
+</html>

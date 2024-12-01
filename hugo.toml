@@ -1,0 +1,43 @@
+baseURL = '/'
+languageCode = 'en-us'
+theme = "nightfall"
+
+[menu]
+  [[menu.header]]
+    name = "blog"
+    weight = 0
+    url = "blog"
+  [[menu.header]]
+    name = "about"
+    weight = 1
+    url = "about"
+
+[params]
+user = "athul"
+hostname = "devlogs"
+  [params.author]
+    name = "My Devlogs"  # Website and RSS feed author
+    email = "athulvanil03@gmail.com"  # RSS feed email address
+
+
+readingTime = true  # Show reading time on post page
+published = true  # Show published data on post page
+
+[[params.social]]
+key = 0
+name = "github"
+url = "https://github.com/athuull"
+target = "_blank"
+aria = "GitHub Profile"
+
+[[params.social]]
+key = 1
+name = "linkedin"
+url = "https://www.linkedin.com/in/athul-v-anil-094808222/"
+aria = "LinkedIn Profile"
+
+[[params.social]]
+key = 2
+name = "email"
+url = "mailto:athulvanil03@gmail.com"
+aria = "My e-Mail Address"
