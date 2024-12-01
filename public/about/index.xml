@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Abouts on </title>
-    <link>http://mydevlogs.duckdns.org/about/</link>
+    <link>https://athuull.github.io/about/</link>
     <description>Recent content in Abouts on </description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <managingEditor>athulvanil03@gmail.com (My Devlogs)</managingEditor>
     <webMaster>athulvanil03@gmail.com (My Devlogs)</webMaster>
-    <atom:link href="http://mydevlogs.duckdns.org/about/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://athuull.github.io/about/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title></title>
-      <link>http://mydevlogs.duckdns.org/about/about/</link>
+      <link>https://athuull.github.io/about/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>athulvanil03@gmail.com (My Devlogs)</author>
-      <guid>http://mydevlogs.duckdns.org/about/about/</guid>
+      <guid>https://athuull.github.io/about/about/</guid>
       <description>&lt;h1 id=&#34;about-me&#34;&gt;About Me&lt;/h1&gt;&#xA;&lt;p&gt;Hi! I&amp;rsquo;m &lt;strong&gt;Athul V Anil&lt;/strong&gt;, a passionate Java/C++ developer and tech enthusiast. With strong expertise in &lt;strong&gt;Spring Boot&lt;/strong&gt;, &lt;strong&gt;AWS&lt;/strong&gt;, and cloud-based solutions, I specialize in creating scalable microservices. I’m experienced in developing robust applications, automating code generation with &lt;strong&gt;AI&lt;/strong&gt;, and building intuitive user interfaces. I thrive in collaborative environments and am always excited to tackle new challenges.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Tech Stack:&lt;/strong&gt;&lt;br&gt;&#xA;Java 8, Spring Boot, AWS, PostgreSQL, MongoDB, JUnit, REST APIs, React, Swagger, Git&lt;/p&gt;</description>
     </item>
   </channel>
