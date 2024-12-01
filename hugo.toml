@@ -1,4 +1,4 @@
-baseURL = '/'
+baseURL = 'https://152.67.167.138'
 languageCode = 'en-us'
 theme = "nightfall"
 
