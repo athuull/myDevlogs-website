@@ -2,31 +2,31 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>/</loc>
+    <loc>http://mydevlogs.duckdns.org/</loc>
     <lastmod>2024-12-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/blogging/</loc>
+    <loc>http://mydevlogs.duckdns.org/tags/blogging/</loc>
     <lastmod>2024-12-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/blog/</loc>
+    <loc>http://mydevlogs.duckdns.org/blog/</loc>
     <lastmod>2024-12-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/blog/my-blog-pipeline/</loc>
+    <loc>http://mydevlogs.duckdns.org/blog/my-blog-pipeline/</loc>
     <lastmod>2024-12-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/</loc>
+    <loc>http://mydevlogs.duckdns.org/tags/</loc>
     <lastmod>2024-12-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/tools/</loc>
+    <loc>http://mydevlogs.duckdns.org/tags/tools/</loc>
     <lastmod>2024-12-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/workflow/</loc>
+    <loc>http://mydevlogs.duckdns.org/tags/workflow/</loc>
     <lastmod>2024-12-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/about/about/</loc>
+    <loc>http://mydevlogs.duckdns.org/about/about/</loc>
   </url><url>
-    <loc>/about/</loc>
+    <loc>http://mydevlogs.duckdns.org/about/</loc>
   </url><url>
-    <loc>/categories/</loc>
+    <loc>http://mydevlogs.duckdns.org/categories/</loc>
   </url>
 </urlset>

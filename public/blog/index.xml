@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Blogs on </title>
-    <link>/blog/</link>
+    <link>http://mydevlogs.duckdns.org/blog/</link>
     <description>Recent content in Blogs on </description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <managingEditor>athulvanil03@gmail.com (My Devlogs)</managingEditor>
     <webMaster>athulvanil03@gmail.com (My Devlogs)</webMaster>
     <lastBuildDate>Sun, 01 Dec 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/blog/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://mydevlogs.duckdns.org/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>My Blog Pipeline</title>
-      <link>/blog/my-blog-pipeline/</link>
+      <link>http://mydevlogs.duckdns.org/blog/my-blog-pipeline/</link>
       <pubDate>Sun, 01 Dec 2024 00:00:00 +0000</pubDate><author>athulvanil03@gmail.com (My Devlogs)</author>
-      <guid>/blog/my-blog-pipeline/</guid>
+      <guid>http://mydevlogs.duckdns.org/blog/my-blog-pipeline/</guid>
       <description>&lt;p&gt;Here&amp;rsquo;s how I manage and run this blog:&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://obsidian.md&#34;&gt;Obsidian&lt;/a&gt;&lt;/strong&gt;&lt;br&gt;&#xA;Obsidian is my go-to note-taking and writing tool. I use it to draft, organize, and refine all my posts before publishing. Its markdown-based workflow is perfect for my use case such as this website.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://gohugo.io&#34;&gt;Hugo&lt;/a&gt;&lt;/strong&gt;&lt;br&gt;&#xA;Hugo is the static site generator powering this blog. It allows me to convert markdown files into a fast and beautifully designed website with ease.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://github.com&#34;&gt;GitHub&lt;/a&gt;&lt;/strong&gt;&lt;br&gt;&#xA;GitHub serves as my version control and deployment tool. I push my Hugo-generated website to a GitHub repository, which keeps my code and content organized and backed up.&lt;/p&gt;</description>
     </item>
   </channel>
