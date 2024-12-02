@@ -1,34 +1,37 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Tags on </title>
-    <link>https://athuull.github.io/tags/</link>
-    <description>Recent content in Tags on </description>
-    <generator>Hugo</generator>
-    <language>en-us</language>
-    <managingEditor>athulvanil03@gmail.com (My Devlogs)</managingEditor>
-    <webMaster>athulvanil03@gmail.com (My Devlogs)</webMaster>
+    <title>Tags on MyDevLog</title>
+    <link>//localhost:1313/tags/</link>
+    <description>Recent content in Tags on MyDevLog</description>
+    <image>
+      <title>MyDevLog</title>
+      <url>//localhost:1313/images/devlog-cover.png</url>
+      <link>//localhost:1313/images/devlog-cover.png</link>
+    </image>
+    <generator>Hugo -- 0.139.3</generator>
+    <language>en</language>
     <lastBuildDate>Sun, 01 Dec 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://athuull.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Blogging</title>
-      <link>https://athuull.github.io/tags/blogging/</link>
-      <pubDate>Sun, 01 Dec 2024 00:00:00 +0000</pubDate><author>athulvanil03@gmail.com (My Devlogs)</author>
-      <guid>https://athuull.github.io/tags/blogging/</guid>
+      <link>//localhost:1313/tags/blogging/</link>
+      <pubDate>Sun, 01 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/tags/blogging/</guid>
       <description></description>
     </item>
     <item>
       <title>Tools</title>
-      <link>https://athuull.github.io/tags/tools/</link>
-      <pubDate>Sun, 01 Dec 2024 00:00:00 +0000</pubDate><author>athulvanil03@gmail.com (My Devlogs)</author>
-      <guid>https://athuull.github.io/tags/tools/</guid>
+      <link>//localhost:1313/tags/tools/</link>
+      <pubDate>Sun, 01 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/tags/tools/</guid>
       <description></description>
     </item>
     <item>
       <title>Workflow</title>
-      <link>https://athuull.github.io/tags/workflow/</link>
-      <pubDate>Sun, 01 Dec 2024 00:00:00 +0000</pubDate><author>athulvanil03@gmail.com (My Devlogs)</author>
-      <guid>https://athuull.github.io/tags/workflow/</guid>
+      <link>//localhost:1313/tags/workflow/</link>
+      <pubDate>Sun, 01 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/tags/workflow/</guid>
       <description></description>
     </item>
   </channel>

@@ -1,43 +1,63 @@
-baseURL = 'https://athuull.github.io/'
-languageCode = 'en-us'
-theme = "nightfall"
+baseURL = "/"
+title = "MyDevLog"
+pagination.pagerSize = 5
+theme = ["PaperMod"]
+enableInlineShortcodes = true
+enableRobotsTXT = true
+buildDrafts = false
+buildFuture = false
+buildExpired = false
+enableEmoji = true
+pygmentsUseClasses = true
+mainsections = ["posts"]
 
-[menu]
-  [[menu.header]]
-    name = "blog"
-    weight = 0
-    url = "blog"
-  [[menu.header]]
-    name = "about"
+[minify]
+disableXML = true
+
+[languages]
+  [languages.en]
+    languageName = "English"
     weight = 1
-    url = "about"
+    taxonomies = { category = "categories", tag = "tags" }
+    [[languages.en.menu.main]]
+      name = "About Me"
+      url = "about/"
+      weight = 1
+    [[languages.en.menu.main]]
+      name = "Posts"
+      url = "posts/"
+      weight = 5
+
+[outputs]
+home = ["HTML", "RSS", "JSON"]
 
 [params]
-user = "athul"
-hostname = "devlogs"
-  [params.author]
-    name = "My Devlogs"  # Website and RSS feed author
-    email = "athulvanil03@gmail.com"  # RSS feed email address
+env = "production"
+description = "Follow my journey"
+author = "Athul"
+defaultTheme = "auto"
+ShowShareButtons = true
+ShowReadingTime = true
+ShowBreadCrumbs = true
+ShowToc = true
+images = ["images/devlog-cover.png"]
 
+  [params.homeInfoParams]
+    Title = "Welcome to My DevLog"
+    Content = """
+  👋 Hey, I'm Athul! This blog serves as documentation of my journey with tech.
+  Follow along as I explore new tools, projects, and trends.
+  Feel free to explore and connect!
+  """
 
-readingTime = true  # Show reading time on post page
-published = true  # Show published data on post page
+  [[params.socialIcons]]
+    name = "github"
+    title = "Check out my GitHub"
+    url = "https://github.com/athuull"
+  [[params.socialIcons]]
+    name = "LinkedIn"
+    title = "Connect with me on LinkedIn"
+    url = "https://www.linkedin.com/in/athul-v-anil-094808222/"
 
-[[params.social]]
-key = 0
-name = "github"
-url = "https://github.com/athuull"
-target = "_blank"
-aria = "GitHub Profile"
-
-[[params.social]]
-key = 1
-name = "linkedin"
-url = "https://www.linkedin.com/in/athul-v-anil-094808222/"
-aria = "LinkedIn Profile"
-
-[[params.social]]
-key = 2
-name = "email"
-url = "mailto:athulvanil03@gmail.com"
-aria = "My e-Mail Address"
+[markup.goldmark.renderer]
+unsafe = true

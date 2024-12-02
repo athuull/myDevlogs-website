@@ -1,28 +1,44 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title></title>
-    <link>https://athuull.github.io/</link>
-    <description>Recent content on </description>
-    <generator>Hugo</generator>
-    <language>en-us</language>
-    <managingEditor>athulvanil03@gmail.com (My Devlogs)</managingEditor>
-    <webMaster>athulvanil03@gmail.com (My Devlogs)</webMaster>
+    <title>MyDevLog</title>
+    <link>//localhost:1313/</link>
+    <description>Recent content on MyDevLog</description>
+    <image>
+      <title>MyDevLog</title>
+      <url>//localhost:1313/images/devlog-cover.png</url>
+      <link>//localhost:1313/images/devlog-cover.png</link>
+    </image>
+    <generator>Hugo -- 0.139.3</generator>
+    <language>en</language>
     <lastBuildDate>Sun, 01 Dec 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://athuull.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>My Blog Pipeline</title>
-      <link>https://athuull.github.io/blog/my-blog-pipeline/</link>
-      <pubDate>Sun, 01 Dec 2024 00:00:00 +0000</pubDate><author>athulvanil03@gmail.com (My Devlogs)</author>
-      <guid>https://athuull.github.io/blog/my-blog-pipeline/</guid>
-      <description>&lt;p&gt;Here&amp;rsquo;s how I manage and run this blog:&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://obsidian.md&#34;&gt;Obsidian&lt;/a&gt;&lt;/strong&gt;&lt;br&gt;&#xA;Obsidian is my go-to note-taking and writing tool. I use it to draft, organize, and refine all my posts before publishing. Its markdown-based workflow is perfect for my use case such as this website.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://gohugo.io&#34;&gt;Hugo&lt;/a&gt;&lt;/strong&gt;&lt;br&gt;&#xA;Hugo is the static site generator powering this blog. It allows me to convert markdown files into a fast and beautifully designed website with ease.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://github.com&#34;&gt;GitHub&lt;/a&gt;&lt;/strong&gt;&lt;br&gt;&#xA;GitHub serves as my version control and deployment tool. I push my Hugo-generated website to a GitHub repository, which keeps my code and content organized and backed up.&lt;/p&gt;</description>
+      <title>About Me</title>
+      <link>//localhost:1313/about/about-me/</link>
+      <pubDate>Sun, 01 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/about/about-me/</guid>
+      <description>&lt;p&gt;Hi! I’m &lt;strong&gt;Athul V Anil&lt;/strong&gt;, a software developer who enjoys creating efficient and intuitive solutions. I’m particularly passionate about using tools like &lt;strong&gt;Java&lt;/strong&gt;, &lt;strong&gt;Spring Boot&lt;/strong&gt;, and &lt;strong&gt;AWS&lt;/strong&gt; to build practical applications and explore innovative approaches, like integrating &lt;strong&gt;AI&lt;/strong&gt; into development workflows.&lt;/p&gt;
+&lt;p&gt;I love collaborating with others to solve challenging problems and continuously learning about new technologies. Outside of work, I enjoy participating in hackathons, gaming, and playing the guitar. These hobbies fuel my creativity and keep me inspired!&lt;/p&gt;</description>
     </item>
     <item>
-      <title></title>
-      <link>https://athuull.github.io/about/about/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>athulvanil03@gmail.com (My Devlogs)</author>
-      <guid>https://athuull.github.io/about/about/</guid>
-      <description>&lt;h1 id=&#34;about-me&#34;&gt;About Me&lt;/h1&gt;&#xA;&lt;p&gt;Hi! I&amp;rsquo;m &lt;strong&gt;Athul V Anil&lt;/strong&gt;, a passionate Java/C++ developer and tech enthusiast. With strong expertise in &lt;strong&gt;Spring Boot&lt;/strong&gt;, &lt;strong&gt;AWS&lt;/strong&gt;, and cloud-based solutions, I specialize in creating scalable microservices. I’m experienced in developing robust applications, automating code generation with &lt;strong&gt;AI&lt;/strong&gt;, and building intuitive user interfaces. I thrive in collaborative environments and am always excited to tackle new challenges.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Tech Stack:&lt;/strong&gt;&lt;br&gt;&#xA;Java 8, Spring Boot, AWS, PostgreSQL, MongoDB, JUnit, REST APIs, React, Swagger, Git&lt;/p&gt;</description>
+      <title>My Blog Pipeline</title>
+      <link>//localhost:1313/posts/my-blog-pipeline/</link>
+      <pubDate>Sun, 01 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/posts/my-blog-pipeline/</guid>
+      <description>&lt;p&gt;Here&amp;rsquo;s how I manage and run this blog:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://obsidian.md&#34;&gt;Obsidian&lt;/a&gt;&lt;/strong&gt;&lt;br&gt;
+Obsidian is my go-to note-taking and writing tool. I use it to draft, organize, and refine all my posts before publishing. Its markdown-based workflow is perfect for my use case such as this website.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://gohugo.io&#34;&gt;Hugo&lt;/a&gt;&lt;/strong&gt;&lt;br&gt;
+Hugo is the static site generator powering this blog. It allows me to convert markdown files into a fast and beautifully designed website with ease.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://github.com&#34;&gt;GitHub&lt;/a&gt;&lt;/strong&gt;&lt;br&gt;
+GitHub serves as my version control and deployment tool. I push my Hugo-generated website to a GitHub repository, which keeps my code and content organized and backed up.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

@@ -17,7 +17,7 @@ Here's how I manage and run this blog:
    GitHub serves as my version control and deployment tool. I push my Hugo-generated website to a GitHub repository, which keeps my code and content organized and backed up.
 
 4. **Private Server on Oracle Cloud**  
-   I host my website on a free private server provisioned through [Oracle Cloud](https://www.oracle.com/cloud/). I like hosting my own websites.
+   I host my website on a free private server provisioned through [Oracle Cloud](https://www.oracle.com/cloud/). I like hosting my own websites. I am also hosting this website on Github pages.
 
 With this setup, I can write in Obsidian, use Hugo to generate the site, manage my source code with GitHub, and host it securely on my Oracle Cloud server. This pipeline ensures a smooth and efficient workflow for maintaining this blog.
 
@@ -52,7 +52,7 @@ hugo new site website_name
 This creates a new Hugo site in the `website_name` folder.
 
 ## 3. Downloading Hugo Themes
-Browse [official Hugo themes site](https://themes.gohugo.io/) for customizing the look of the website. I used [Nightfall](https://themes.gohugo.io/themes/hugo-theme-nightfall/) To install a theme: 
+Browse [official Hugo themes site](https://themes.gohugo.io/) for customizing the look of the website. To install a theme: 
 
 1. Navigate to the website folder:
    ```bash
