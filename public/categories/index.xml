@@ -2,15 +2,15 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Categories on MyDevLog</title>
-    <link>//localhost:1313/categories/</link>
+    <link>https://athuull.github.io/categories/</link>
     <description>Recent content in Categories on MyDevLog</description>
     <image>
       <title>MyDevLog</title>
-      <url>//localhost:1313/images/devlog-cover.png</url>
-      <link>//localhost:1313/images/devlog-cover.png</link>
+      <url>https://athuull.github.io/images/devlog-cover.png</url>
+      <link>https://athuull.github.io/images/devlog-cover.png</link>
     </image>
     <generator>Hugo -- 0.139.3</generator>
     <language>en</language>
-    <atom:link href="//localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://athuull.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

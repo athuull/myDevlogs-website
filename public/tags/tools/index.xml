@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Tools on MyDevLog</title>
-    <link>//localhost:1313/tags/tools/</link>
+    <link>https://athuull.github.io/tags/tools/</link>
     <description>Recent content in Tools on MyDevLog</description>
     <image>
       <title>MyDevLog</title>
-      <url>//localhost:1313/images/devlog-cover.png</url>
-      <link>//localhost:1313/images/devlog-cover.png</link>
+      <url>https://athuull.github.io/images/devlog-cover.png</url>
+      <link>https://athuull.github.io/images/devlog-cover.png</link>
     </image>
     <generator>Hugo -- 0.139.3</generator>
     <language>en</language>
     <lastBuildDate>Sun, 01 Dec 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="//localhost:1313/tags/tools/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://athuull.github.io/tags/tools/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>My Blog Pipeline</title>
-      <link>//localhost:1313/posts/my-blog-pipeline/</link>
+      <link>https://athuull.github.io/posts/my-blog-pipeline/</link>
       <pubDate>Sun, 01 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/posts/my-blog-pipeline/</guid>
+      <guid>https://athuull.github.io/posts/my-blog-pipeline/</guid>
       <description>&lt;p&gt;Here&amp;rsquo;s how I manage and run this blog:&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;
