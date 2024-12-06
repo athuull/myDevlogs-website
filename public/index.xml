@@ -11,8 +11,18 @@
     </image>
     <generator>Hugo -- 0.139.3</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 01 Dec 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 06 Dec 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Using NGINX as a Load Balancer</title>
+      <link>/posts/nginx-as-a-load-balancer/</link>
+      <pubDate>Fri, 06 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>/posts/nginx-as-a-load-balancer/</guid>
+      <description>&lt;h2 id=&#34;what-is-nginx&#34;&gt;What is NGINX?&lt;/h2&gt;
+&lt;p&gt;NGINX is a versatile tool that functions as an HTTP web server, reverse proxy, content cache, load balancer, TCP/UDP proxy server, and mail proxy server. In this blog, we’ll focus on using NGINX as a &lt;strong&gt;load balancer&lt;/strong&gt; for a static web server application.&lt;/p&gt;
+&lt;h3 id=&#34;overview-of-the-setup&#34;&gt;Overview of the Setup&lt;/h3&gt;
+&lt;p&gt;In this tutorial, we’ll walk through setting up a load-balanced environment for a simple static web page server using &lt;strong&gt;Spring Boot&lt;/strong&gt;, &lt;strong&gt;Docker&lt;/strong&gt;, and &lt;strong&gt;NGINX&lt;/strong&gt;. Here&amp;rsquo;s the high-level workflow:&lt;/p&gt;</description>
+    </item>
     <item>
       <title>About Me</title>
       <link>/about/about-me/</link>

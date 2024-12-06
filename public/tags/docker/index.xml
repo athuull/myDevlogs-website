@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Posts on MyDevLog</title>
-    <link>/posts/</link>
-    <description>Recent content in Posts on MyDevLog</description>
+    <title>Docker on MyDevLog</title>
+    <link>/tags/docker/</link>
+    <description>Recent content in Docker on MyDevLog</description>
     <image>
       <title>MyDevLog</title>
       <url>/images/devlog-cover.png</url>
@@ -12,7 +12,7 @@
     <generator>Hugo -- 0.139.3</generator>
     <language>en</language>
     <lastBuildDate>Fri, 06 Dec 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/tags/docker/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Using NGINX as a Load Balancer</title>
       <link>/posts/nginx-as-a-load-balancer/</link>
@@ -22,25 +22,6 @@
 &lt;p&gt;NGINX is a versatile tool that functions as an HTTP web server, reverse proxy, content cache, load balancer, TCP/UDP proxy server, and mail proxy server. In this blog, we’ll focus on using NGINX as a &lt;strong&gt;load balancer&lt;/strong&gt; for a static web server application.&lt;/p&gt;
 &lt;h3 id=&#34;overview-of-the-setup&#34;&gt;Overview of the Setup&lt;/h3&gt;
 &lt;p&gt;In this tutorial, we’ll walk through setting up a load-balanced environment for a simple static web page server using &lt;strong&gt;Spring Boot&lt;/strong&gt;, &lt;strong&gt;Docker&lt;/strong&gt;, and &lt;strong&gt;NGINX&lt;/strong&gt;. Here&amp;rsquo;s the high-level workflow:&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>My Blog Pipeline</title>
-      <link>/posts/my-blog-pipeline/</link>
-      <pubDate>Sun, 01 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>/posts/my-blog-pipeline/</guid>
-      <description>&lt;p&gt;Here&amp;rsquo;s how I manage and run this blog:&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://obsidian.md&#34;&gt;Obsidian&lt;/a&gt;&lt;/strong&gt;&lt;br&gt;
-Obsidian is my go-to note-taking and writing tool. I use it to draft, organize, and refine all my posts before publishing. Its markdown-based workflow is perfect for my use case such as this website.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://gohugo.io&#34;&gt;Hugo&lt;/a&gt;&lt;/strong&gt;&lt;br&gt;
-Hugo is the static site generator powering this blog. It allows me to convert markdown files into a fast and beautifully designed website with ease.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://github.com&#34;&gt;GitHub&lt;/a&gt;&lt;/strong&gt;&lt;br&gt;
-GitHub serves as my version control and deployment tool. I push my Hugo-generated website to a GitHub repository, which keeps my code and content organized and backed up.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
