@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Posts on MyDevLog</title>
-    <link>/posts/</link>
+    <link>https://athuull.github.io/posts/</link>
     <description>Recent content in Posts on MyDevLog</description>
     <image>
       <title>MyDevLog</title>
-      <url>/images/devlog-cover.png</url>
-      <link>/images/devlog-cover.png</link>
+      <url>https://athuull.github.io/images/devlog-cover.png</url>
+      <link>https://athuull.github.io/images/devlog-cover.png</link>
     </image>
     <generator>Hugo -- 0.139.3</generator>
     <language>en</language>
     <lastBuildDate>Fri, 06 Dec 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://athuull.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Using NGINX as a Load Balancer</title>
-      <link>/posts/nginx-as-a-load-balancer/</link>
+      <link>https://athuull.github.io/posts/nginx-as-a-load-balancer/</link>
       <pubDate>Fri, 06 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>/posts/nginx-as-a-load-balancer/</guid>
+      <guid>https://athuull.github.io/posts/nginx-as-a-load-balancer/</guid>
       <description>&lt;h2 id=&#34;what-is-nginx&#34;&gt;What is NGINX?&lt;/h2&gt;
 &lt;p&gt;NGINX is a versatile tool that functions as an HTTP web server, reverse proxy, content cache, load balancer, TCP/UDP proxy server, and mail proxy server. In this blog, we’ll focus on using NGINX as a &lt;strong&gt;load balancer&lt;/strong&gt; for a static web server application.&lt;/p&gt;
 &lt;h3 id=&#34;overview-of-the-setup&#34;&gt;Overview of the Setup&lt;/h3&gt;
@@ -25,9 +25,9 @@
     </item>
     <item>
       <title>My Blog Pipeline</title>
-      <link>/posts/my-blog-pipeline/</link>
+      <link>https://athuull.github.io/posts/my-blog-pipeline/</link>
       <pubDate>Sun, 01 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>/posts/my-blog-pipeline/</guid>
+      <guid>https://athuull.github.io/posts/my-blog-pipeline/</guid>
       <description>&lt;p&gt;Here&amp;rsquo;s how I manage and run this blog:&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;

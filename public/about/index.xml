@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Abouts on MyDevLog</title>
-    <link>/about/</link>
+    <link>https://athuull.github.io/about/</link>
     <description>Recent content in Abouts on MyDevLog</description>
     <image>
       <title>MyDevLog</title>
-      <url>/images/devlog-cover.png</url>
-      <link>/images/devlog-cover.png</link>
+      <url>https://athuull.github.io/images/devlog-cover.png</url>
+      <link>https://athuull.github.io/images/devlog-cover.png</link>
     </image>
     <generator>Hugo -- 0.139.3</generator>
     <language>en</language>
     <lastBuildDate>Sun, 01 Dec 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/about/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://athuull.github.io/about/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>About Me</title>
-      <link>/about/about-me/</link>
+      <link>https://athuull.github.io/about/about-me/</link>
       <pubDate>Sun, 01 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>/about/about-me/</guid>
+      <guid>https://athuull.github.io/about/about-me/</guid>
       <description>&lt;p&gt;Hi! I’m &lt;strong&gt;Athul V Anil&lt;/strong&gt;, a software developer who enjoys creating efficient and intuitive solutions. I’m particularly passionate about using tools like &lt;strong&gt;Java&lt;/strong&gt;, &lt;strong&gt;Spring Boot&lt;/strong&gt;, and &lt;strong&gt;AWS&lt;/strong&gt; to build practical applications and explore innovative approaches, like integrating &lt;strong&gt;AI&lt;/strong&gt; into development workflows.&lt;/p&gt;
 &lt;p&gt;I love collaborating with others to solve challenging problems and continuously learning about new technologies. Outside of work, I enjoy participating in hackathons, gaming, and playing the guitar. These hobbies fuel my creativity and keep me inspired!&lt;/p&gt;</description>
     </item>

@@ -1,4 +1,4 @@
-baseURL = "/"
+baseURL = "https://athuull.github.io/"
 title = "MyDevLog"
 pagination.pagerSize = 5
 theme = ["PaperMod"]

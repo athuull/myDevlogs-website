@@ -2,71 +2,71 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Tags on MyDevLog</title>
-    <link>/tags/</link>
+    <link>https://athuull.github.io/tags/</link>
     <description>Recent content in Tags on MyDevLog</description>
     <image>
       <title>MyDevLog</title>
-      <url>/images/devlog-cover.png</url>
-      <link>/images/devlog-cover.png</link>
+      <url>https://athuull.github.io/images/devlog-cover.png</url>
+      <link>https://athuull.github.io/images/devlog-cover.png</link>
     </image>
     <generator>Hugo -- 0.139.3</generator>
     <language>en</language>
     <lastBuildDate>Fri, 06 Dec 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://athuull.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Devops</title>
-      <link>/tags/devops/</link>
+      <link>https://athuull.github.io/tags/devops/</link>
       <pubDate>Fri, 06 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>/tags/devops/</guid>
+      <guid>https://athuull.github.io/tags/devops/</guid>
       <description></description>
     </item>
     <item>
       <title>Docker</title>
-      <link>/tags/docker/</link>
+      <link>https://athuull.github.io/tags/docker/</link>
       <pubDate>Fri, 06 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>/tags/docker/</guid>
+      <guid>https://athuull.github.io/tags/docker/</guid>
       <description></description>
     </item>
     <item>
       <title>Load Balancing</title>
-      <link>/tags/load-balancing/</link>
+      <link>https://athuull.github.io/tags/load-balancing/</link>
       <pubDate>Fri, 06 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>/tags/load-balancing/</guid>
+      <guid>https://athuull.github.io/tags/load-balancing/</guid>
       <description></description>
     </item>
     <item>
       <title>Nginx</title>
-      <link>/tags/nginx/</link>
+      <link>https://athuull.github.io/tags/nginx/</link>
       <pubDate>Fri, 06 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>/tags/nginx/</guid>
+      <guid>https://athuull.github.io/tags/nginx/</guid>
       <description></description>
     </item>
     <item>
       <title>Spring Boot</title>
-      <link>/tags/spring-boot/</link>
+      <link>https://athuull.github.io/tags/spring-boot/</link>
       <pubDate>Fri, 06 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>/tags/spring-boot/</guid>
+      <guid>https://athuull.github.io/tags/spring-boot/</guid>
       <description></description>
     </item>
     <item>
       <title>Blogging</title>
-      <link>/tags/blogging/</link>
+      <link>https://athuull.github.io/tags/blogging/</link>
       <pubDate>Sun, 01 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>/tags/blogging/</guid>
+      <guid>https://athuull.github.io/tags/blogging/</guid>
       <description></description>
     </item>
     <item>
       <title>Tools</title>
-      <link>/tags/tools/</link>
+      <link>https://athuull.github.io/tags/tools/</link>
       <pubDate>Sun, 01 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>/tags/tools/</guid>
+      <guid>https://athuull.github.io/tags/tools/</guid>
       <description></description>
     </item>
     <item>
       <title>Workflow</title>
-      <link>/tags/workflow/</link>
+      <link>https://athuull.github.io/tags/workflow/</link>
       <pubDate>Sun, 01 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>/tags/workflow/</guid>
+      <guid>https://athuull.github.io/tags/workflow/</guid>
       <description></description>
     </item>
   </channel>
