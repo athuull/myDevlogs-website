@@ -2,10 +2,28 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://athuull.github.io/tags/java/</loc>
+    <lastmod>2024-12-14T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://athuull.github.io/</loc>
     <lastmod>2024-12-14T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://athuull.github.io/posts/plantify---building-a-plant-data-recording-app-with-qr-code-integration-using-spring-boot/</loc>
+    <lastmod>2024-12-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://athuull.github.io/tags/postgresql/</loc>
+    <lastmod>2024-12-14T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://athuull.github.io/posts/</loc>
+    <lastmod>2024-12-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://athuull.github.io/tags/springboot/</loc>
+    <lastmod>2024-12-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://athuull.github.io/tags/</loc>
+    <lastmod>2024-12-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://athuull.github.io/tags/thymeleaf/</loc>
     <lastmod>2024-12-14T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://athuull.github.io/tags/devops/</loc>
@@ -21,9 +39,6 @@
     <lastmod>2024-12-06T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://athuull.github.io/tags/spring-boot/</loc>
-    <lastmod>2024-12-06T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://athuull.github.io/tags/</loc>
     <lastmod>2024-12-06T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://athuull.github.io/posts/nginx-as-a-load-balancer/</loc>

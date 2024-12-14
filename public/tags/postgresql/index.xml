@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>PostgreSQL on MyDevLog</title>
+    <link>https://athuull.github.io/tags/postgresql/</link>
+    <description>Recent content in PostgreSQL on MyDevLog</description>
+    <image>
+      <title>MyDevLog</title>
+      <url>https://athuull.github.io/images/devlog-cover.png</url>
+      <link>https://athuull.github.io/images/devlog-cover.png</link>
+    </image>
+    <generator>Hugo -- 0.139.3</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 14 Dec 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://athuull.github.io/tags/postgresql/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Plantify - Building a Plant Data Recording App with QR Code Integration using Spring Boot</title>
+      <link>https://athuull.github.io/posts/plantify---building-a-plant-data-recording-app-with-qr-code-integration-using-spring-boot/</link>
+      <pubDate>Sat, 14 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>https://athuull.github.io/posts/plantify---building-a-plant-data-recording-app-with-qr-code-integration-using-spring-boot/</guid>
+      <description>&lt;p&gt;I had been tasked with assigning QR codes to some plants, which when scanned, should lead to a web page with its name and some facts regarding that plant. At first, since there were only a handful of plants to work with, I built static web pages for each plant and generated QR codes that encoded the URLs to these static pages.&lt;/p&gt;
+&lt;p&gt;This worked for a small number of plants, but when my college asked me to scale it up to include all the plants on the campus, I knew I had to come up with something more scalable. Perhaps an app that could dynamically create a web page along with a QR code—leading to that page by taking in user input—could solve the problem.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
