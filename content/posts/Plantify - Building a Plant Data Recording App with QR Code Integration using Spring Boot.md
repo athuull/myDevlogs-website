@@ -1,7 +1,7 @@
 ---
 title: "Plantify - Building a Plant Data Recording App with QR Code Integration using Spring Boot"
 date: 2024-12-14
-draft: true
+draft: false
 tags: ["Java", "SpringBoot", "Thymeleaf", "PostgreSQL"]
 ---
 
