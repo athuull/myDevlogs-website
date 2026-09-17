@@ -133,16 +133,19 @@
         <a href="https://athuull.github.io/tags/blogging/">blogging <sup><strong><sup>1</sup></strong></sup> </a>
     </li>
     <li>
-        <a href="https://athuull.github.io/tags/devops/">devops <sup><strong><sup>1</sup></strong></sup> </a>
+        <a href="https://athuull.github.io/tags/devops/">DevOps <sup><strong><sup>2</sup></strong></sup> </a>
     </li>
     <li>
-        <a href="https://athuull.github.io/tags/docker/">docker <sup><strong><sup>1</sup></strong></sup> </a>
+        <a href="https://athuull.github.io/tags/docker/">Docker <sup><strong><sup>2</sup></strong></sup> </a>
     </li>
     <li>
-        <a href="https://athuull.github.io/tags/java/">Java <sup><strong><sup>1</sup></strong></sup> </a>
+        <a href="https://athuull.github.io/tags/java/">Java <sup><strong><sup>2</sup></strong></sup> </a>
     </li>
     <li>
         <a href="https://athuull.github.io/tags/load-balancing/">load balancing <sup><strong><sup>1</sup></strong></sup> </a>
+    </li>
+    <li>
+        <a href="https://athuull.github.io/tags/music/">Music <sup><strong><sup>1</sup></strong></sup> </a>
     </li>
     <li>
         <a href="https://athuull.github.io/tags/nginx/">nginx <sup><strong><sup>1</sup></strong></sup> </a>
@@ -151,10 +154,13 @@
         <a href="https://athuull.github.io/tags/postgresql/">PostgreSQL <sup><strong><sup>1</sup></strong></sup> </a>
     </li>
     <li>
+        <a href="https://athuull.github.io/tags/self-hosting/">Self-Hosting <sup><strong><sup>1</sup></strong></sup> </a>
+    </li>
+    <li>
         <a href="https://athuull.github.io/tags/spring-boot/">spring boot <sup><strong><sup>1</sup></strong></sup> </a>
     </li>
     <li>
-        <a href="https://athuull.github.io/tags/springboot/">SpringBoot <sup><strong><sup>1</sup></strong></sup> </a>
+        <a href="https://athuull.github.io/tags/springboot/">SpringBoot <sup><strong><sup>2</sup></strong></sup> </a>
     </li>
     <li>
         <a href="https://athuull.github.io/tags/thymeleaf/">Thymeleaf <sup><strong><sup>1</sup></strong></sup> </a>
@@ -169,7 +175,7 @@
     </main>
     
 <footer class="footer">
-        <span>&copy; 2024 <a href="https://athuull.github.io/">MyDevLog</a></span> · 
+        <span>&copy; 2026 <a href="https://athuull.github.io/">MyDevLog</a></span> · 
 
     <span>
         Powered by
@@ -181,7 +187,20 @@
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
         <path d="M12 6H0l6-6z" />
     </svg>
-</a>
+</a><script type="module">
+  if (document.querySelector('.mermaid')) {
+    const { default: mermaid } = await import('https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs');
+    const isDark = document.body.classList.contains('dark') || 
+                   (localStorage.getItem('pref-theme') === 'dark') || 
+                   (!localStorage.getItem('pref-theme') && window.matchMedia('(prefers-color-scheme: dark)').matches);
+    mermaid.initialize({
+      startOnLoad: true,
+      theme: isDark ? 'dark' : 'default',
+      securityLevel: 'loose'
+    });
+  }
+</script>
+
 
 <script>
     let menu = document.getElementById('menu')

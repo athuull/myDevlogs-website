@@ -132,6 +132,20 @@
 
 <article class="post-entry tag-entry"> 
   <header class="entry-header">
+    <h2 class="entry-hint-parent">Hera - Building a Self-Hosted Music Recommendation System
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>For a while, I’ve been meaning to step away from proprietary music streaming services like Spotify and Apple Music. Having already used Jellyfin to stream movies and TV shows across my home network, self-hosting my music seemed like the logical next step.
+I had a spare ThinkPad laptop lying around that I wasn’t using much, so I hosted Navidrome on it using CasaOS and paired it with the Symfonium app on my phone to stream music anywhere. For grabbing tracks, I found an awesome app called Downtify, which leverages yt-dlp to download songs along with their artwork.
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2026-09-17 00:00:00 +0000 UTC'>September 17, 2026</span>&nbsp;·&nbsp;5 min&nbsp;·&nbsp;Athul</footer>
+  <a class="entry-link" aria-label="post link to Hera - Building a Self-Hosted Music Recommendation System" href="https://athuull.github.io/posts/hera---building-a-self-hosted-music-recommendation-system/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
     <h2 class="entry-hint-parent">Using NGINX as a Load Balancer
     </h2>
   </header>
@@ -146,7 +160,7 @@ Overview of the Setup In this tutorial, we’ll walk through setting up a load-b
     </main>
     
 <footer class="footer">
-        <span>&copy; 2024 <a href="https://athuull.github.io/">MyDevLog</a></span> · 
+        <span>&copy; 2026 <a href="https://athuull.github.io/">MyDevLog</a></span> · 
 
     <span>
         Powered by
@@ -158,7 +172,20 @@ Overview of the Setup In this tutorial, we’ll walk through setting up a load-b
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
         <path d="M12 6H0l6-6z" />
     </svg>
-</a>
+</a><script type="module">
+  if (document.querySelector('.mermaid')) {
+    const { default: mermaid } = await import('https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs');
+    const isDark = document.body.classList.contains('dark') || 
+                   (localStorage.getItem('pref-theme') === 'dark') || 
+                   (!localStorage.getItem('pref-theme') && window.matchMedia('(prefers-color-scheme: dark)').matches);
+    mermaid.initialize({
+      startOnLoad: true,
+      theme: isDark ? 'dark' : 'default',
+      securityLevel: 'loose'
+    });
+  }
+</script>
+
 
 <script>
     let menu = document.getElementById('menu')

@@ -11,13 +11,48 @@
     </image>
     <generator>Hugo -- 0.139.3</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 14 Dec 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 17 Sep 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://athuull.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Devops</title>
+      <link>https://athuull.github.io/tags/devops/</link>
+      <pubDate>Thu, 17 Sep 2026 00:00:00 +0000</pubDate>
+      <guid>https://athuull.github.io/tags/devops/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Docker</title>
+      <link>https://athuull.github.io/tags/docker/</link>
+      <pubDate>Thu, 17 Sep 2026 00:00:00 +0000</pubDate>
+      <guid>https://athuull.github.io/tags/docker/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Java</title>
       <link>https://athuull.github.io/tags/java/</link>
-      <pubDate>Sat, 14 Dec 2024 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 17 Sep 2026 00:00:00 +0000</pubDate>
       <guid>https://athuull.github.io/tags/java/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Music</title>
+      <link>https://athuull.github.io/tags/music/</link>
+      <pubDate>Thu, 17 Sep 2026 00:00:00 +0000</pubDate>
+      <guid>https://athuull.github.io/tags/music/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Self-Hosting</title>
+      <link>https://athuull.github.io/tags/self-hosting/</link>
+      <pubDate>Thu, 17 Sep 2026 00:00:00 +0000</pubDate>
+      <guid>https://athuull.github.io/tags/self-hosting/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>SpringBoot</title>
+      <link>https://athuull.github.io/tags/springboot/</link>
+      <pubDate>Thu, 17 Sep 2026 00:00:00 +0000</pubDate>
+      <guid>https://athuull.github.io/tags/springboot/</guid>
       <description></description>
     </item>
     <item>
@@ -28,31 +63,10 @@
       <description></description>
     </item>
     <item>
-      <title>SpringBoot</title>
-      <link>https://athuull.github.io/tags/springboot/</link>
-      <pubDate>Sat, 14 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>https://athuull.github.io/tags/springboot/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Thymeleaf</title>
       <link>https://athuull.github.io/tags/thymeleaf/</link>
       <pubDate>Sat, 14 Dec 2024 00:00:00 +0000</pubDate>
       <guid>https://athuull.github.io/tags/thymeleaf/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Devops</title>
-      <link>https://athuull.github.io/tags/devops/</link>
-      <pubDate>Fri, 06 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>https://athuull.github.io/tags/devops/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Docker</title>
-      <link>https://athuull.github.io/tags/docker/</link>
-      <pubDate>Fri, 06 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>https://athuull.github.io/tags/docker/</guid>
       <description></description>
     </item>
     <item>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Devops on MyDevLog</title>
-    <link>https://athuull.github.io/tags/devops/</link>
-    <description>Recent content in Devops on MyDevLog</description>
+    <title>Self-Hosting on MyDevLog</title>
+    <link>https://athuull.github.io/tags/self-hosting/</link>
+    <description>Recent content in Self-Hosting on MyDevLog</description>
     <image>
       <title>MyDevLog</title>
       <url>https://athuull.github.io/images/devlog-cover.png</url>
@@ -12,7 +12,7 @@
     <generator>Hugo -- 0.139.3</generator>
     <language>en</language>
     <lastBuildDate>Thu, 17 Sep 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://athuull.github.io/tags/devops/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://athuull.github.io/tags/self-hosting/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hera - Building a Self-Hosted Music Recommendation System</title>
       <link>https://athuull.github.io/posts/hera---building-a-self-hosted-music-recommendation-system/</link>
@@ -20,16 +20,6 @@
       <guid>https://athuull.github.io/posts/hera---building-a-self-hosted-music-recommendation-system/</guid>
       <description>&lt;p&gt;For a while, I’ve been meaning to step away from proprietary music streaming services like Spotify and Apple Music. Having already used Jellyfin to stream movies and TV shows across my home network, self-hosting my music seemed like the logical next step.&lt;/p&gt;
 &lt;p&gt;I had a spare ThinkPad laptop lying around that I wasn&amp;rsquo;t using much, so I hosted &lt;strong&gt;Navidrome&lt;/strong&gt; on it using CasaOS and paired it with the &lt;strong&gt;Symfonium&lt;/strong&gt; app on my phone to stream music anywhere. For grabbing tracks, I found an awesome app called &lt;strong&gt;Downtify&lt;/strong&gt;, which leverages &lt;code&gt;yt-dlp&lt;/code&gt; to download songs along with their artwork.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Using NGINX as a Load Balancer</title>
-      <link>https://athuull.github.io/posts/nginx-as-a-load-balancer/</link>
-      <pubDate>Fri, 06 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>https://athuull.github.io/posts/nginx-as-a-load-balancer/</guid>
-      <description>&lt;h2 id=&#34;what-is-nginx&#34;&gt;What is NGINX?&lt;/h2&gt;
-&lt;p&gt;NGINX is a versatile tool that functions as an HTTP web server, reverse proxy, content cache, load balancer, TCP/UDP proxy server, and mail proxy server. In this blog, we’ll focus on using NGINX as a &lt;strong&gt;load balancer&lt;/strong&gt; for a static web server application.&lt;/p&gt;
-&lt;h3 id=&#34;overview-of-the-setup&#34;&gt;Overview of the Setup&lt;/h3&gt;
-&lt;p&gt;In this tutorial, we’ll walk through setting up a load-balanced environment for a simple static web page server using &lt;strong&gt;Spring Boot&lt;/strong&gt;, &lt;strong&gt;Docker&lt;/strong&gt;, and &lt;strong&gt;NGINX&lt;/strong&gt;. Here&amp;rsquo;s the high-level workflow:&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

@@ -308,7 +308,7 @@ This worked for a small number of plants, but when my college asked me to scale 
     </main>
     
 <footer class="footer">
-        <span>&copy; 2024 <a href="https://athuull.github.io/">MyDevLog</a></span> · 
+        <span>&copy; 2026 <a href="https://athuull.github.io/">MyDevLog</a></span> · 
 
     <span>
         Powered by
@@ -320,7 +320,20 @@ This worked for a small number of plants, but when my college asked me to scale 
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
         <path d="M12 6H0l6-6z" />
     </svg>
-</a>
+</a><script type="module">
+  if (document.querySelector('.mermaid')) {
+    const { default: mermaid } = await import('https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs');
+    const isDark = document.body.classList.contains('dark') || 
+                   (localStorage.getItem('pref-theme') === 'dark') || 
+                   (!localStorage.getItem('pref-theme') && window.matchMedia('(prefers-color-scheme: dark)').matches);
+    mermaid.initialize({
+      startOnLoad: true,
+      theme: isDark ? 'dark' : 'default',
+      securityLevel: 'loose'
+    });
+  }
+</script>
+
 
 <script>
     let menu = document.getElementById('menu')

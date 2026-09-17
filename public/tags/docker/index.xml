@@ -11,8 +11,16 @@
     </image>
     <generator>Hugo -- 0.139.3</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 06 Dec 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 17 Sep 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://athuull.github.io/tags/docker/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hera - Building a Self-Hosted Music Recommendation System</title>
+      <link>https://athuull.github.io/posts/hera---building-a-self-hosted-music-recommendation-system/</link>
+      <pubDate>Thu, 17 Sep 2026 00:00:00 +0000</pubDate>
+      <guid>https://athuull.github.io/posts/hera---building-a-self-hosted-music-recommendation-system/</guid>
+      <description>&lt;p&gt;For a while, I’ve been meaning to step away from proprietary music streaming services like Spotify and Apple Music. Having already used Jellyfin to stream movies and TV shows across my home network, self-hosting my music seemed like the logical next step.&lt;/p&gt;
+&lt;p&gt;I had a spare ThinkPad laptop lying around that I wasn&amp;rsquo;t using much, so I hosted &lt;strong&gt;Navidrome&lt;/strong&gt; on it using CasaOS and paired it with the &lt;strong&gt;Symfonium&lt;/strong&gt; app on my phone to stream music anywhere. For grabbing tracks, I found an awesome app called &lt;strong&gt;Downtify&lt;/strong&gt;, which leverages &lt;code&gt;yt-dlp&lt;/code&gt; to download songs along with their artwork.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Using NGINX as a Load Balancer</title>
       <link>https://athuull.github.io/posts/nginx-as-a-load-balancer/</link>
