@@ -32,26 +32,6 @@ With Hera running in the background, it can wake up every night, discover new tr
 
 ---
 
-## System Architecture
-
-I built Hera with **Java and Spring Boot**, organizing the workflow into distinct layers for orchestration, recommendation strategy, library inspection, and download execution:
-
-![Hera Architecture Diagram](/images/hera/diagram.png)
-
-### 1. Recommendation Pipeline & Strategy Provider
-Hera talks to Last.fm through an API adapter (`LastFmClient.java`). The recommendation pipeline uses a strategy pattern to derive candidate tracks. Under the **Hybrid Strategy**, it balances finding deep cuts from artists you already listen to against branching out into related artists and genre tags.
-
-### 2. Library Guard & Deduplication
-To prevent bloating your storage with repeated downloads, candidate tracks pass through `DeduplicationService`. It scans the mounted local music directory and checks the history audit log. Any track that already exists in your library or was previously skipped is filtered out.
-
-### 3. Download & Format Post-Processing
-Accepted tracks are handed to the `DownloadService`, which delegates the actual fetching to the Downtify backend. After the audio is downloaded, a post-download cleanup service standardizes tags and audio formatting before writing the clean files directly into the shared music directory.
-
-### 4. Real-Time Dashboard
-The web UI connects to Spring Boot REST endpoints for configuration and manual downloads, while a **WebSocket** channel streams live progress updates and background task activity in real time.
-
----
-
 ## Dashboard in Action
 
 Here is a look at the web dashboard running in production on my server:
