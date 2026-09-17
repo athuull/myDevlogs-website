@@ -3,8 +3,10 @@ title: "About Me"
 date: 2024-12-01
 draft: false
 ---
-Hi! I’m **Athul V Anil**, a software developer who enjoys creating efficient and intuitive solutions. I’m particularly passionate about using tools like **Java**, **Spring Boot**, and **AWS** to build practical applications and explore innovative approaches, like integrating **AI** into development workflows.
+Hi! I’m **Athul V Anil**, a software engineer, hobbyist music producer, and guitarist.
 
-I love collaborating with others to solve challenging problems and continuously learning about new technologies. Outside of work, I enjoy participating in hackathons, gaming, and playing the guitar. These hobbies fuel my creativity and keep me inspired!
+I have a strong passion for backend engineering, building reliable systems, and tinkering with self-hosted infrastructure. My core interests center around technologies like **Java**, **Spring Boot**, **Docker**, and **Linux**, alongside exploring networking, automation, and devops practices.
 
-Feel free to connect—I’m always up for a good tech chat or collaboration!
+Outside of code, music is a major part of my life. Whether I’m producing tracks, exploring sound design, or playing the guitar, creative pursuits keep me inspired and bring a fresh perspective to how I approach engineering and problem-solving.
+
+I’m always excited to learn, build, and exchange ideas. Feel free to reach out—I’m always up for a good tech or music chat!
