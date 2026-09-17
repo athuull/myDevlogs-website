@@ -143,6 +143,32 @@ The web UI connects to Spring Boot REST endpoints for configuration and manual d
 
 ---
 
+## Dashboard in Action
+
+Here is a look at the web dashboard running in production on my server:
+
+### 1. Discovery & Recommendation Hub
+The dashboard allows you to select your discovery strategy (`Hybrid`, recent scrobbles, or top artists), set candidate limits, trigger manual searches, or paste Spotify / web links for one-click downloading:
+
+![Hera Dashboard - Music Discovery & Recommendations](https://raw.githubusercontent.com/athuull/hera/main/Apps/Hera/screenshot-1.png)
+
+### 2. Live WebSocket Download Tracking
+When downloads are queued—either manually or via the nightly cron scheduler—real-time progress bars track the active audio stream download, batch progress, and worker activity:
+
+![Hera Download Progress & WebSocket Feed](https://raw.githubusercontent.com/athuull/hera/main/Apps/Hera/screenshot-2.png)
+
+### 3. Audit History & Deduplication Logs
+Hera keeps a full audit log of every track processed. Notice the status badges showing `[success]`, `[failed]`, and `[skipped]`—demonstrating the library guard preventing duplicates from being downloaded:
+
+![Hera Audit History & Status Logs](https://raw.githubusercontent.com/athuull/hera/main/Apps/Hera/screenshot-3.png)
+
+### 4. Local Music Library Overview
+You can also inspect the indexed local tracks directly from the web UI, complete with artist metadata and cover artwork:
+
+![Hera Local Library Browser](https://raw.githubusercontent.com/athuull/hera/main/Apps/Hera/screenshot-4.png)
+
+---
+
 ## Deployment with Docker Compose
 
 Hera is fully containerized and designed to sit right next to Downtify and Navidrome in your home server stack.
